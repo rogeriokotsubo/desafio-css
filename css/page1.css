@@ -13,47 +13,23 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
 }
-#menu {
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-  height: 47px;
-  min-width: 700px;
-  align-items: center;
-  font-size: 16px;
-}
-.a-menu {
-  text-decoration: none;
-  padding: 14px;
-  color: white;
-  font-weight: bold;
-  transition: background .3s;
-}
-.a-menu:hover {
-  background-color: #006050;
-}
-/* - ESTILO PARA O RODAPÉ - */
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  height: 100vh;
 }
 main {
-    flex: 1;
-    font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
-    background-color: #212227;
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  background-color: #212227;
 }
 
+
 #page1 {
-  flex: 1;
   font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 /* Navbar */
 #nav1{
-  flex: 1;
   display: flex;
   flex-direction: row;
   height: 9vh;
@@ -96,11 +72,43 @@ li {
 .span-menu:hover{
   color:white;
 }
+.traces{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  width: 2vw;
+  height: 3vh;
+}
+.trace1{
+  display: flex;
+  width: 2vw;
+  height: 0.2vh;
+}
+.trace11{
+  flex: 1;
+}
+.trace12{
+  flex:2;
+  height: 0.2vh;
+  background-color:#58595b;
+}
+.trace{
+  height: 0.2vh;
+  width: 2vw;
+  background-color:#58595b;
+}
+
+.trace:hover{
+  background-color:white;
+}
+.trace12:hover{
+  background-color:white;
+}
 
 /* Container main -> separador - imagens - rodape */
 
 #container-main{
-  height: 91vh;
+  height: 85vh;
   flex: 11;
   display: flex;
   flex-direction: column;
@@ -112,7 +120,7 @@ li {
   background: #d8a068;
 }
 #container-images{
-  margin-top: 5vh;;
+  margin-top: 5vh;
   flex: 9;
   display: flex;
 }
@@ -174,9 +182,12 @@ li {
   font-size: 2vh;
   font-weight: 600;
   text-align: left;
+  transition: 0.2s;
 }
-
-/* elementos container footer */
+#learn:hover{
+  color:#da730c;
+}
+  /* elementos container footer */
 #ctn-squares{
   display: flex;
   align-items: center;
