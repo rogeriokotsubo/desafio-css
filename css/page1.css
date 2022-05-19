@@ -131,17 +131,6 @@ li {
   justify-content: space-between;
   background-color: #212227;
 }
-.txt-large{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:white;
-  font-size: 10vh;
-  text-align: left;
-}
-#ctn-text{
-  flex: 2;
-  display: flex;
-  justify-content: space-around;
-}
 
 /*container images*/
 #ctn-images{
@@ -150,8 +139,24 @@ li {
   justify-content: space-between;
   background-color: #212227;
 }
-
+#img1{
+  width: 20vw;
+  height: 72vh;
+}
+#img2{
+  width: 20vw;
+  height: 72vh;
+}
+#img3{
+  width: 14vw;
+  height: 72vh;
+}
 /*container texto*/
+#ctn-text{
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
 #container-text{
   display: flex;
   flex-direction: column;
@@ -159,12 +164,20 @@ li {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   gap: 3vh;
   background-color: #212227;
+  width: 15vw;
+  height: 70vh;
 }
 
+.txt-large{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:white;
+  font-size: 5vw;
+  text-align: left;
+}
 /*elementos  container texto*/
 #txt-item{
   color:white;
-  font-size: 2vh;
+  font-size: 1.8rem;
   font-weight: 600;
   text-align: left;
   margin-left: 0.5vw;;
